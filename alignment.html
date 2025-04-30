@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMpare - Alignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="pure-menu pure-menu-horizontal">
+            <!-- Branding Image -->
+            <a href="/" class="pure-menu-heading pure-menu-selected" style="text-transform: none;">
+            <img src="/assets/logo.svg" alt="CAMpare Logo" style="height: 50px; width: auto; vertical-align: middle;">
+            <a class="pure-menu-heading" style="text-transform: none;" href="/">CAMpare</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                <a href="/" class="pure-menu-link">Home</a>
+                </li>
+                <li class="pure-menu-item pure-menu-selected">
+                <a href="/alignment.html" class="pure-menu-link">Alignment View</a>
+                </li>
+                <li class="pure-menu-item">
+                <a href="/parameters.html" class="pure-menu-link">Performance View</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+    <div style="text-align: center; margin: 20px;">
+        <h1>Alignment View</h1>
+    </div>
+
+    <div id="model-dropdowns" style="display: flex; justify-content: center; align-items: center; gap: 20px; margin: 20px; background-color: #f9f9f9; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <div style="width: 30%; display: flex; flex-direction: column; align-items: center;">
+            <!-- Select Model 1: -->
+            <p style="margin-bottom: 10px;">Main Model</p>
+            <select id="model1-select" class="pure-input-1-2 model-dropdown">
+                <option value="">None</option>
+                <!-- Options will be populated dynamically -->
+            </select>
+        </div>
+
+        <div style="width: 30%; display: flex; flex-direction: column; align-items: center;">
+            <!-- Select Model 2: -->
+            <p style="margin-bottom: 10px;">Baseline Model (Optional)</p>
+            <select id="model2-select" class="pure-input-1-2 model-dropdown">
+                <option value="">None</option>
+                <!-- Options will be populated dynamically -->
+            </select>
+        </div>  
+    </div>
+
+    <div id="data-container" style="display: flex; justify-content: center; align-items: flex-start; height: 100%;">
+        <div id="selected-model-info" style="display: flex; flex-direction: column; align-items: center; width: 35%; position: sticky; top: 5vh; background-color: #f9f9f9; border-radius: 10px; margin: 5px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        </div>
+
+        <div id="alignment-card-container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; margin: 10px; width: 65%;">
+        </div>
+
+    </div>
+
+    
+
+
+
+
+
+    
+</body>
+
+<script src="../js/d3.v7.min.js"></script>
+<script src="../js/alignment.js"></script>
+
+</html>

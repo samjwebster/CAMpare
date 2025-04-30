@@ -1,0 +1,41 @@
+[
+    {
+        "name": "fpad-800_saliency-minutiae_foi_224_inverted-False_mask-None_alpha-0.5_32_50",
+        "nickname": "Minutiae, Features of Interest",
+        "parameters": {
+            "alpha": "0.5",
+            "saliency": "minutiae_foi_224",
+            "inverted": "False",
+            "mask": "None",
+            "batch_size": "32",
+            "num_epochs": "50",
+            "architecture": "resnet"
+        }
+    },
+    {
+        "name": "fpad-800_saliency-human_single_aoi_224_inverted-False_mask-None_alpha-0.5_32_50",
+        "nickname": "Human AOI, 0.5",
+        "parameters": {
+            "alpha": "0.5",
+            "saliency": "human_single_aoi_224",
+            "inverted": "False",
+            "mask": "None",
+            "batch_size": "32",
+            "num_epochs": "50",
+            "architecture": "resnet"
+        }
+    },
+    {
+        "name": "fpad-large_saliency-None_224_inverted-False_mask-None_alpha-1.0_32_50_2",
+        "nickname": "xent",
+        "parameters": {
+            "alpha": "1.0",
+            "saliency": "None",
+            "inverted": "False",
+            "mask": "None",
+            "batch_size": "32",
+            "num_epochs": "50",
+            "architecture": "resnet"
+        }
+    }
+]

@@ -1,0 +1,14 @@
+{
+    "name": "+project01+cvrl+swebster+fingerprints+model_output_alpha_search+ld21_asearch_minutiae_boi_224_INV-True_MASK-None_resnet_mse_20+ALPHA-0.6_",
+    "nickname": "Inverted BOI",
+    "parameters": {
+        "model_directory_base": "/project01/cvrl/swebster/fingerprints/model_output_alpha_search/ld21_asearch_minutiae_boi_224_INV-True_MASK-None_resnet_mse_20/ALPHA-0.6_",
+        "alpha": "0.6",
+        "saliency": "minutiae_boi_224",
+        "inverted": "True",
+        "mask": "None",
+        "batch_size": "32",
+        "num_epochs": "50",
+        "architecture": "resnet"
+    }
+}
