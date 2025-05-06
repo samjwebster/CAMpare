@@ -32,18 +32,10 @@
     <hr>
 
     <div style="text-align: center; margin: 20px;">
-        <h1>Performance View</h1>
+        <h1 id="comparison-title">AUC vs Alignment</h1>
     </div>
 
-    <div style="display: flex; flex-direction: column; align-items: center;">
-        <div id="select-datatype"> 
-            <!-- Radio -->
-            <input type="radio" id="datatype1" name="datatype" value="config" checked>
-            <label for="datatype1">Config-Level</label>
-            <input type="radio" id="datatype2" name="datatype" value="sample">
-            <label for="datatype2">Sample-Level</label>
-        </div>
-
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
         <div id="select-parameter">
             <!-- Select -->
             <select id="parameter-select" class="pure-input-1-2">
@@ -56,8 +48,33 @@
             </select>
         </div>
 
-        <div id="chart-container" style="width: 450px; height: 450px; margin-top: 5px;">
-            <svg id="chart" width="450" height="450"></svg>
+        <div id="select-datatype"> 
+            <!-- Radio -->
+            <input type="radio" id="datatype1" name="datatype" value="config" checked>
+            <label for="datatype1">Config-Level</label>
+            <input type="radio" id="datatype2" name="datatype" value="sample">
+            <label for="datatype2">Sample-Level</label>
+        </div>
+    </div>
+
+    <div id="data-container" style="display: flex; width: 99vw; flex-direction: row; align-items: flex-start; justify-content: space-evenly;">
+        <div id="chart-container" style="min-width: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <svg id="chart" width="480" height="480"></svg>
+        </div>
+
+        <div id="summary-rank-container" style="display: flex; min-width: 40%; flex-direction: column; align-items: center; justify-content: space-evenly;">
+            <div id="summary-card" style="background-color: #f9f9f9; width: 90%; border-radius: 10px; margin: 5px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h3 style="padding: 0; margin: 0;">Overview</h3>
+                <hr>
+                <div id="relationship"></div>
+            </div>
+
+            <div id="rank-card" style="background-color: #f5f5f5; width: 90%; border-radius: 10px; margin: 5px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h4 style="margin: 0; padding: 0;">Rankings (Scrollable)</h4>
+                <div id="rank-content" style="overflow: scroll; max-height: 40vh; ">
+                    <p id="rank-text">Select a parameter to see the rank.</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -69,6 +86,7 @@
 </body>
 
 <script src="../js/d3.v7.min.js"></script>
+<script src="../js/simple-statistics.min.js"></script>
 <script src="../js/Parameters.js"></script>
 
 </html>

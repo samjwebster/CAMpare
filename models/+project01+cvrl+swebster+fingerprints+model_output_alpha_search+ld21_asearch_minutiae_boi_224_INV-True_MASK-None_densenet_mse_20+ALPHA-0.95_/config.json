@@ -1,0 +1,14 @@
+{
+    "name": "+project01+cvrl+swebster+fingerprints+model_output_alpha_search+ld21_asearch_minutiae_boi_224_INV-True_MASK-None_densenet_mse_20+ALPHA-0.95_",
+    "nickname": "Inv BOI, bad",
+    "parameters": {
+        "model_directory_base": "/project01/cvrl/swebster/fingerprints/model_output_alpha_search/ld21_asearch_minutiae_boi_224_INV-True_MASK-None_densenet_mse_20/ALPHA-0.95_",
+        "alpha": "0.95",
+        "saliency": "minutiae_boi_224",
+        "inverted": "True",
+        "mask": "None",
+        "batch_size": "32",
+        "num_epochs": "50",
+        "architecture": "densenet"
+    }
+}

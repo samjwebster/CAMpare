@@ -1,0 +1,14 @@
+{
+    "name": "+project01+cvrl+swebster+fingerprints+paper_models+fixed_large_xent+fpad-large_resnet_mse_20_",
+    "nickname": "Large Baseline",
+    "parameters": {
+        "model_directory_base": "/project01/cvrl/swebster/fingerprints/paper_models/fixed_large_xent/fpad-large_resnet_mse_20_",
+        "alpha": "1.0",
+        "saliency": "None",
+        "inverted": "False",
+        "mask": "None",
+        "batch_size": "32",
+        "num_epochs": "50",
+        "architecture": "resnet"
+    }
+}

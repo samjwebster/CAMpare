@@ -1,0 +1,14 @@
+{
+    "name": "+project01+cvrl+swebster+fingerprints+eigensaliency+fpad-autoencoder-asearch_fisherface_224_INV-False_MASK-None_densenet_mse_20+ALPHA-0.9_",
+    "nickname": "Fisherface",
+    "parameters": {
+        "model_directory_base": "/project01/cvrl/swebster/fingerprints/eigensaliency/fpad-autoencoder-asearch_fisherface_224_INV-False_MASK-None_densenet_mse_20/ALPHA-0.9_",
+        "alpha": "0.9",
+        "saliency": "fisherface_224",
+        "inverted": "False",
+        "mask": "None",
+        "batch_size": "32",
+        "num_epochs": "50",
+        "architecture": "densenet"
+    }
+}

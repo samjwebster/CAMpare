@@ -1,0 +1,14 @@
+{
+    "name": "+project01+cvrl+swebster+fingerprints+paper_models+800_samples_asearch+fpad-autoencoder-asearch_low_quality_224_INV-False_MASK-None_densenet_mse_20+ALPHA-0.7_",
+    "nickname": "lq, densenet",
+    "parameters": {
+        "model_directory_base": "/project01/cvrl/swebster/fingerprints/paper_models/800_samples_asearch/fpad-autoencoder-asearch_low_quality_224_INV-False_MASK-None_densenet_mse_20/ALPHA-0.7_",
+        "alpha": "0.7",
+        "saliency": "low_quality_224",
+        "inverted": "False",
+        "mask": "None",
+        "batch_size": "32",
+        "num_epochs": "50",
+        "architecture": "0.7"
+    }
+}

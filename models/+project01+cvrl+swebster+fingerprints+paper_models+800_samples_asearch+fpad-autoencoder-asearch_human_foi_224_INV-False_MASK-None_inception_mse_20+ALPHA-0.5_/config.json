@@ -1,0 +1,14 @@
+{
+    "name": "+project01+cvrl+swebster+fingerprints+paper_models+800_samples_asearch+fpad-autoencoder-asearch_human_foi_224_INV-False_MASK-None_inception_mse_20+ALPHA-0.5_",
+    "nickname": "human-annotated",
+    "parameters": {
+        "model_directory_base": "/project01/cvrl/swebster/fingerprints/paper_models/800_samples_asearch/fpad-autoencoder-asearch_human_foi_224_INV-False_MASK-None_inception_mse_20/ALPHA-0.5_",
+        "alpha": "0.5",
+        "saliency": "human_foi_224",
+        "inverted": "False",
+        "mask": "None",
+        "batch_size": "32",
+        "num_epochs": "50",
+        "architecture": "inception"
+    }
+}

@@ -1,4 +1,32 @@
 {
+    "+project01+cvrl+swebster+fingerprints+eigensaliency+fpad-autoencoder-asearch_fisherface_224_INV-False_MASK-None_densenet_mse_20+ALPHA-0.9_": {
+        "name": "+project01+cvrl+swebster+fingerprints+eigensaliency+fpad-autoencoder-asearch_fisherface_224_INV-False_MASK-None_densenet_mse_20+ALPHA-0.9_",
+        "nickname": "Fisherface",
+        "parameters": {
+            "model_directory_base": "/project01/cvrl/swebster/fingerprints/eigensaliency/fpad-autoencoder-asearch_fisherface_224_INV-False_MASK-None_densenet_mse_20/ALPHA-0.9_",
+            "alpha": "0.9",
+            "saliency": "fisherface_224",
+            "inverted": "False",
+            "mask": "None",
+            "batch_size": "32",
+            "num_epochs": "50",
+            "architecture": "densenet"
+        }
+    },
+    "+project01+cvrl+swebster+fingerprints+model_output_alpha_search+ld21_asearch_minutiae_boi_224_INV-True_MASK-None_densenet_mse_20+ALPHA-0.95_": {
+        "name": "+project01+cvrl+swebster+fingerprints+model_output_alpha_search+ld21_asearch_minutiae_boi_224_INV-True_MASK-None_densenet_mse_20+ALPHA-0.95_",
+        "nickname": "Inv BOI, bad",
+        "parameters": {
+            "model_directory_base": "/project01/cvrl/swebster/fingerprints/model_output_alpha_search/ld21_asearch_minutiae_boi_224_INV-True_MASK-None_densenet_mse_20/ALPHA-0.95_",
+            "alpha": "0.95",
+            "saliency": "minutiae_boi_224",
+            "inverted": "True",
+            "mask": "None",
+            "batch_size": "32",
+            "num_epochs": "50",
+            "architecture": "densenet"
+        }
+    },
     "+project01+cvrl+swebster+fingerprints+model_output_alpha_search+ld21_asearch_minutiae_boi_224_INV-True_MASK-None_resnet_mse_20+ALPHA-0.6_": {
         "name": "+project01+cvrl+swebster+fingerprints+model_output_alpha_search+ld21_asearch_minutiae_boi_224_INV-True_MASK-None_resnet_mse_20+ALPHA-0.6_",
         "nickname": "Inverted BOI",
@@ -27,6 +55,34 @@
             "architecture": "inception"
         }
     },
+    "+project01+cvrl+swebster+fingerprints+paper_models+800_samples_asearch+fpad-autoencoder-asearch_human_foi_224_INV-False_MASK-None_inception_mse_20+ALPHA-0.5_": {
+        "name": "+project01+cvrl+swebster+fingerprints+paper_models+800_samples_asearch+fpad-autoencoder-asearch_human_foi_224_INV-False_MASK-None_inception_mse_20+ALPHA-0.5_",
+        "nickname": "human-annotated",
+        "parameters": {
+            "model_directory_base": "/project01/cvrl/swebster/fingerprints/paper_models/800_samples_asearch/fpad-autoencoder-asearch_human_foi_224_INV-False_MASK-None_inception_mse_20/ALPHA-0.5_",
+            "alpha": "0.5",
+            "saliency": "human_foi_224",
+            "inverted": "False",
+            "mask": "None",
+            "batch_size": "32",
+            "num_epochs": "50",
+            "architecture": "inception"
+        }
+    },
+    "+project01+cvrl+swebster+fingerprints+paper_models+800_samples_asearch+fpad-autoencoder-asearch_low_quality_224_INV-False_MASK-None_densenet_mse_20+ALPHA-0.7_": {
+        "name": "+project01+cvrl+swebster+fingerprints+paper_models+800_samples_asearch+fpad-autoencoder-asearch_low_quality_224_INV-False_MASK-None_densenet_mse_20+ALPHA-0.7_",
+        "nickname": "lq, densenet",
+        "parameters": {
+            "model_directory_base": "/project01/cvrl/swebster/fingerprints/paper_models/800_samples_asearch/fpad-autoencoder-asearch_low_quality_224_INV-False_MASK-None_densenet_mse_20/ALPHA-0.7_",
+            "alpha": "0.7",
+            "saliency": "low_quality_224",
+            "inverted": "False",
+            "mask": "None",
+            "batch_size": "32",
+            "num_epochs": "50",
+            "architecture": "0.7"
+        }
+    },
     "+project01+cvrl+swebster+fingerprints+paper_models+baselines_new+fpad-xent_inception_mse_20_": {
         "name": "+project01+cvrl+swebster+fingerprints+paper_models+baselines_new+fpad-xent_inception_mse_20_",
         "nickname": "Baseline, limited data",
@@ -41,6 +97,20 @@
             "architecture": "inception"
         }
     },
+    "+project01+cvrl+swebster+fingerprints+paper_models+fixed_large_pseudosaliency+fpad-autoencoder-asearch_low_quality_224_INV-False_MASK-None_resnet_mse_20+ALPHA-0.1_": {
+        "name": "+project01+cvrl+swebster+fingerprints+paper_models+fixed_large_pseudosaliency+fpad-autoencoder-asearch_low_quality_224_INV-False_MASK-None_resnet_mse_20+ALPHA-0.1_",
+        "nickname": "low quality, a0.1",
+        "parameters": {
+            "model_directory_base": "/project01/cvrl/swebster/fingerprints/paper_models/fixed_large_pseudosaliency/fpad-autoencoder-asearch_low_quality_224_INV-False_MASK-None_resnet_mse_20/ALPHA-0.1_",
+            "alpha": "0.1",
+            "saliency": "low_quality_224",
+            "inverted": "False",
+            "mask": "None",
+            "batch_size": "32",
+            "num_epochs": "50",
+            "architecture": "resnet"
+        }
+    },
     "+project01+cvrl+swebster+fingerprints+paper_models+fixed_large_pseudosaliency+fpad-autoencoder-asearch_minutiae_aoi_224_INV-False_MASK-None_densenet_mse_20+ALPHA-0.9_": {
         "name": "+project01+cvrl+swebster+fingerprints+paper_models+fixed_large_pseudosaliency+fpad-autoencoder-asearch_minutiae_aoi_224_INV-False_MASK-None_densenet_mse_20+ALPHA-0.9_",
         "nickname": "Best CYBORG, M-AOI",
@@ -48,6 +118,48 @@
             "model_directory_base": "/project01/cvrl/swebster/fingerprints/paper_models/fixed_large_pseudosaliency/fpad-autoencoder-asearch_minutiae_aoi_224_INV-False_MASK-None_densenet_mse_20/ALPHA-0.9_",
             "alpha": "0.9",
             "saliency": "minutiae_aoi_224",
+            "inverted": "False",
+            "mask": "None",
+            "batch_size": "32",
+            "num_epochs": "50",
+            "architecture": "densenet"
+        }
+    },
+    "+project01+cvrl+swebster+fingerprints+paper_models+fixed_large_pseudosaliency+fpad-autoencoder-asearch_minutiae_foi_224_INV-False_MASK-None_inception_mse_20+ALPHA-0.1_": {
+        "name": "+project01+cvrl+swebster+fingerprints+paper_models+fixed_large_pseudosaliency+fpad-autoencoder-asearch_minutiae_foi_224_INV-False_MASK-None_inception_mse_20+ALPHA-0.1_",
+        "nickname": "Minutiae Features",
+        "parameters": {
+            "model_directory_base": "/project01/cvrl/swebster/fingerprints/paper_models/fixed_large_pseudosaliency/fpad-autoencoder-asearch_minutiae_foi_224_INV-False_MASK-None_inception_mse_20/ALPHA-0.1_",
+            "alpha": "0.1",
+            "saliency": "minutiae_foi_224",
+            "inverted": "False",
+            "mask": "None",
+            "batch_size": "32",
+            "num_epochs": "50",
+            "architecture": "inception"
+        }
+    },
+    "+project01+cvrl+swebster+fingerprints+paper_models+fixed_large_xent+fpad-large_resnet_mse_20_": {
+        "name": "+project01+cvrl+swebster+fingerprints+paper_models+fixed_large_xent+fpad-large_resnet_mse_20_",
+        "nickname": "Large Baseline",
+        "parameters": {
+            "model_directory_base": "/project01/cvrl/swebster/fingerprints/paper_models/fixed_large_xent/fpad-large_resnet_mse_20_",
+            "alpha": "1.0",
+            "saliency": "None",
+            "inverted": "False",
+            "mask": "None",
+            "batch_size": "32",
+            "num_epochs": "50",
+            "architecture": "resnet"
+        }
+    },
+    "+project01+cvrl+swebster+fingerprints+paper_models+large_autoencoder+fpad-autoencoder-asearch_autoencoder_boi_224_INV-False_MASK-None_densenet_mse_20+ALPHA-0.3_": {
+        "name": "+project01+cvrl+swebster+fingerprints+paper_models+large_autoencoder+fpad-autoencoder-asearch_autoencoder_boi_224_INV-False_MASK-None_densenet_mse_20+ALPHA-0.3_",
+        "nickname": "BOI, normal",
+        "parameters": {
+            "model_directory_base": "/project01/cvrl/swebster/fingerprints/paper_models/large_autoencoder/fpad-autoencoder-asearch_autoencoder_boi_224_INV-False_MASK-None_densenet_mse_20/ALPHA-0.3_",
+            "alpha": "0.3",
+            "saliency": "autoencoder_boi_224",
             "inverted": "False",
             "mask": "None",
             "batch_size": "32",
